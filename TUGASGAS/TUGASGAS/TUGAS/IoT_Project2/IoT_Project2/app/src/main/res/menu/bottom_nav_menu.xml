@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_control"
+        android:icon="@drawable/nav_power"
+        android:title="Control" />
+
+    <item
+        android:id="@+id/nav_chart"
+        android:icon="@drawable/nav_chart"
+        android:title="Chart" />
+
+    <item
+        android:id="@+id/nav_notif"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_notifications" />
+
+</menu>

@@ -1,0 +1,2255 @@
+[{
+  "_id": {
+    "$oid": "67419212480ef629c71c9fad"
+  },
+  "temperature": 29.3,
+  "humidity": 72.8,
+  "gas_level": 614,
+  "timestamp": {
+    "$date": "2024-11-23T08:28:02.203Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419221480ef629c71c9fae"
+  },
+  "temperature": 29.3,
+  "humidity": 72.8,
+  "gas_level": 614,
+  "timestamp": {
+    "$date": "2024-11-23T08:28:17.673Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741922d480ef629c71c9faf"
+  },
+  "temperature": 29.6,
+  "humidity": 74.1,
+  "gas_level": 586,
+  "timestamp": {
+    "$date": "2024-11-23T08:28:29.544Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741923a480ef629c71c9fb0"
+  },
+  "temperature": 34.4,
+  "humidity": 74.7,
+  "gas_level": 597,
+  "timestamp": {
+    "$date": "2024-11-23T08:28:42.588Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419246480ef629c71c9fb1"
+  },
+  "temperature": 39,
+  "humidity": 52.6,
+  "gas_level": 593,
+  "timestamp": {
+    "$date": "2024-11-23T08:28:54.694Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419256480ef629c71c9fb2"
+  },
+  "temperature": 41.2,
+  "humidity": 34.2,
+  "gas_level": 598,
+  "timestamp": {
+    "$date": "2024-11-23T08:29:10.408Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419261480ef629c71c9fb3"
+  },
+  "temperature": 40.1,
+  "humidity": 30.3,
+  "gas_level": 604,
+  "timestamp": {
+    "$date": "2024-11-23T08:29:21.958Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741926e480ef629c71c9fb4"
+  },
+  "temperature": 38.8,
+  "humidity": 32.8,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:29:34.370Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419293480ef629c71c9fb5"
+  },
+  "temperature": 36.2,
+  "humidity": 40.3,
+  "gas_level": 605,
+  "timestamp": {
+    "$date": "2024-11-23T08:30:11.110Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674192a5480ef629c71c9fb6"
+  },
+  "temperature": 34.8,
+  "humidity": 45.6,
+  "gas_level": 607,
+  "timestamp": {
+    "$date": "2024-11-23T08:30:29.524Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674192c1480ef629c71c9fb7"
+  },
+  "temperature": 32.8,
+  "humidity": 54.3,
+  "gas_level": 606,
+  "timestamp": {
+    "$date": "2024-11-23T08:30:57.474Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674192cd480ef629c71c9fb8"
+  },
+  "temperature": 32.2,
+  "humidity": 57.2,
+  "gas_level": 606,
+  "timestamp": {
+    "$date": "2024-11-23T08:31:09.264Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674192dc480ef629c71c9fb9"
+  },
+  "temperature": 31.7,
+  "humidity": 59.3,
+  "gas_level": 602,
+  "timestamp": {
+    "$date": "2024-11-23T08:31:24.160Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674192e8480ef629c71c9fba"
+  },
+  "temperature": 31.4,
+  "humidity": 60.9,
+  "gas_level": 602,
+  "timestamp": {
+    "$date": "2024-11-23T08:31:36.570Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674192f7480ef629c71c9fbb"
+  },
+  "temperature": 31.1,
+  "humidity": 62.8,
+  "gas_level": 595,
+  "timestamp": {
+    "$date": "2024-11-23T08:31:51.764Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419304480ef629c71c9fbc"
+  },
+  "temperature": 30.9,
+  "humidity": 64.1,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:32:04.013Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419312480ef629c71c9fbd"
+  },
+  "temperature": 30.6,
+  "humidity": 65.2,
+  "gas_level": 600,
+  "timestamp": {
+    "$date": "2024-11-23T08:32:18.621Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741931f480ef629c71c9fbe"
+  },
+  "temperature": 30.4,
+  "humidity": 66.3,
+  "gas_level": 600,
+  "timestamp": {
+    "$date": "2024-11-23T08:32:31.903Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741932c480ef629c71c9fbf"
+  },
+  "temperature": 30.2,
+  "humidity": 67.3,
+  "gas_level": 598,
+  "timestamp": {
+    "$date": "2024-11-23T08:32:44.219Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741933a480ef629c71c9fc0"
+  },
+  "temperature": 30.1,
+  "humidity": 68.2,
+  "gas_level": 592,
+  "timestamp": {
+    "$date": "2024-11-23T08:32:58.418Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419349480ef629c71c9fc1"
+  },
+  "temperature": 30,
+  "humidity": 68.7,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:33:13.543Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419359480ef629c71c9fc2"
+  },
+  "temperature": 29.8,
+  "humidity": 69.5,
+  "gas_level": 603,
+  "timestamp": {
+    "$date": "2024-11-23T08:33:29.414Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419365480ef629c71c9fc3"
+  },
+  "temperature": 29.7,
+  "humidity": 70.2,
+  "gas_level": 605,
+  "timestamp": {
+    "$date": "2024-11-23T08:33:41.131Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419373480ef629c71c9fc4"
+  },
+  "temperature": 29.5,
+  "humidity": 70.6,
+  "gas_level": 606,
+  "timestamp": {
+    "$date": "2024-11-23T08:33:55.724Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741937f480ef629c71c9fc5"
+  },
+  "temperature": 29.3,
+  "humidity": 70.7,
+  "gas_level": 600,
+  "timestamp": {
+    "$date": "2024-11-23T08:34:07.749Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741938b480ef629c71c9fc6"
+  },
+  "temperature": 29.2,
+  "humidity": 70.7,
+  "gas_level": 604,
+  "timestamp": {
+    "$date": "2024-11-23T08:34:19.953Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419397480ef629c71c9fc7"
+  },
+  "temperature": 29,
+  "humidity": 70.5,
+  "gas_level": 603,
+  "timestamp": {
+    "$date": "2024-11-23T08:34:31.528Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674193a4480ef629c71c9fc8"
+  },
+  "temperature": 29,
+  "humidity": 70.6,
+  "gas_level": 604,
+  "timestamp": {
+    "$date": "2024-11-23T08:34:44.266Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674193af480ef629c71c9fc9"
+  },
+  "temperature": 28.9,
+  "humidity": 71,
+  "gas_level": 604,
+  "timestamp": {
+    "$date": "2024-11-23T08:34:55.968Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674193bb480ef629c71c9fca"
+  },
+  "temperature": 28.9,
+  "humidity": 71.4,
+  "gas_level": 600,
+  "timestamp": {
+    "$date": "2024-11-23T08:35:07.435Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674193c7480ef629c71c9fcb"
+  },
+  "temperature": 28.9,
+  "humidity": 71.7,
+  "gas_level": 605,
+  "timestamp": {
+    "$date": "2024-11-23T08:35:19.650Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674193d3480ef629c71c9fcc"
+  },
+  "temperature": 28.8,
+  "humidity": 71.8,
+  "gas_level": 605,
+  "timestamp": {
+    "$date": "2024-11-23T08:35:31.639Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674193e0480ef629c71c9fcd"
+  },
+  "temperature": 28.8,
+  "humidity": 72,
+  "gas_level": 605,
+  "timestamp": {
+    "$date": "2024-11-23T08:35:44.651Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674193ec480ef629c71c9fce"
+  },
+  "temperature": 28.8,
+  "humidity": 72.2,
+  "gas_level": 600,
+  "timestamp": {
+    "$date": "2024-11-23T08:35:56.823Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674193f8480ef629c71c9fcf"
+  },
+  "temperature": 28.8,
+  "humidity": 72.1,
+  "gas_level": 600,
+  "timestamp": {
+    "$date": "2024-11-23T08:36:08.502Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419404480ef629c71c9fd0"
+  },
+  "temperature": 28.7,
+  "humidity": 72.1,
+  "gas_level": 605,
+  "timestamp": {
+    "$date": "2024-11-23T08:36:20.689Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419410480ef629c71c9fd1"
+  },
+  "temperature": 28.7,
+  "humidity": 72,
+  "gas_level": 605,
+  "timestamp": {
+    "$date": "2024-11-23T08:36:32.779Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741941c480ef629c71c9fd2"
+  },
+  "temperature": 28.6,
+  "humidity": 72.1,
+  "gas_level": 604,
+  "timestamp": {
+    "$date": "2024-11-23T08:36:44.338Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741942a480ef629c71c9fd3"
+  },
+  "temperature": 28.6,
+  "humidity": 72.2,
+  "gas_level": 603,
+  "timestamp": {
+    "$date": "2024-11-23T08:36:58.172Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419436480ef629c71c9fd4"
+  },
+  "temperature": 28.6,
+  "humidity": 72.4,
+  "gas_level": 596,
+  "timestamp": {
+    "$date": "2024-11-23T08:37:10.251Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419442480ef629c71c9fd5"
+  },
+  "temperature": 28.6,
+  "humidity": 72.6,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:37:22.341Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419450480ef629c71c9fd6"
+  },
+  "temperature": 28.6,
+  "humidity": 72.8,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:37:36.539Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741945f480ef629c71c9fd7"
+  },
+  "temperature": 28.6,
+  "humidity": 72.9,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:37:51.614Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741946b480ef629c71c9fd8"
+  },
+  "temperature": 28.6,
+  "humidity": 73,
+  "gas_level": 600,
+  "timestamp": {
+    "$date": "2024-11-23T08:38:03.436Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419477480ef629c71c9fd9"
+  },
+  "temperature": 28.6,
+  "humidity": 73,
+  "gas_level": 595,
+  "timestamp": {
+    "$date": "2024-11-23T08:38:15.715Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419484480ef629c71c9fda"
+  },
+  "temperature": 28.6,
+  "humidity": 73.3,
+  "gas_level": 600,
+  "timestamp": {
+    "$date": "2024-11-23T08:38:28.081Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419491480ef629c71c9fdb"
+  },
+  "temperature": 28.6,
+  "humidity": 73.6,
+  "gas_level": 600,
+  "timestamp": {
+    "$date": "2024-11-23T08:38:41.250Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741949d480ef629c71c9fdc"
+  },
+  "temperature": 28.6,
+  "humidity": 73.6,
+  "gas_level": 600,
+  "timestamp": {
+    "$date": "2024-11-23T08:38:53.819Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674194aa480ef629c71c9fdd"
+  },
+  "temperature": 28.7,
+  "humidity": 73.7,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:39:06.125Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674194b6480ef629c71c9fde"
+  },
+  "temperature": 28.6,
+  "humidity": 73.9,
+  "gas_level": 595,
+  "timestamp": {
+    "$date": "2024-11-23T08:39:18.329Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674194c2480ef629c71c9fdf"
+  },
+  "temperature": 28.7,
+  "humidity": 74,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:39:30.544Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674194ce480ef629c71c9fe0"
+  },
+  "temperature": 28.7,
+  "humidity": 74,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:39:42.090Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674194d9480ef629c71c9fe1"
+  },
+  "temperature": 28.7,
+  "humidity": 74,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:39:53.386Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419511bf12f48acb247035"
+  },
+  "temperature": 28.6,
+  "humidity": 74.1,
+  "gas_level": 600,
+  "timestamp": {
+    "$date": "2024-11-23T08:40:49.410Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741951dbf12f48acb247036"
+  },
+  "temperature": 28.6,
+  "humidity": 74.2,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:41:01.892Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419529bf12f48acb247037"
+  },
+  "temperature": 28.6,
+  "humidity": 74,
+  "gas_level": 600,
+  "timestamp": {
+    "$date": "2024-11-23T08:41:13.799Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419536bf12f48acb247038"
+  },
+  "temperature": 28.5,
+  "humidity": 74,
+  "gas_level": 595,
+  "timestamp": {
+    "$date": "2024-11-23T08:41:26.614Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419543bf12f48acb247039"
+  },
+  "temperature": 28.5,
+  "humidity": 74,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:41:39.557Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741954fbf12f48acb24703a"
+  },
+  "temperature": 28.5,
+  "humidity": 73.8,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:41:51.884Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741955bbf12f48acb24703b"
+  },
+  "temperature": 28.4,
+  "humidity": 74,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:42:03.737Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419568bf12f48acb24703c"
+  },
+  "temperature": 28.4,
+  "humidity": 73.9,
+  "gas_level": 602,
+  "timestamp": {
+    "$date": "2024-11-23T08:42:16.017Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419574bf12f48acb24703d"
+  },
+  "temperature": 28.4,
+  "humidity": 73.9,
+  "gas_level": 596,
+  "timestamp": {
+    "$date": "2024-11-23T08:42:28.399Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419580bf12f48acb24703e"
+  },
+  "temperature": 28.3,
+  "humidity": 73.9,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:42:40.600Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741958fbf12f48acb24703f"
+  },
+  "temperature": 28.2,
+  "humidity": 74,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:42:55.636Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741959dbf12f48acb247040"
+  },
+  "temperature": 28.1,
+  "humidity": 73.8,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:43:09.138Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674195a9bf12f48acb247041"
+  },
+  "temperature": 28.1,
+  "humidity": 73.8,
+  "gas_level": 600,
+  "timestamp": {
+    "$date": "2024-11-23T08:43:21.149Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674195b5bf12f48acb247042"
+  },
+  "temperature": 28,
+  "humidity": 73.8,
+  "gas_level": 595,
+  "timestamp": {
+    "$date": "2024-11-23T08:43:33.963Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674195c2bf12f48acb247043"
+  },
+  "temperature": 27.9,
+  "humidity": 74,
+  "gas_level": 600,
+  "timestamp": {
+    "$date": "2024-11-23T08:43:46.001Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674195cebf12f48acb247044"
+  },
+  "temperature": 27.9,
+  "humidity": 74.2,
+  "gas_level": 600,
+  "timestamp": {
+    "$date": "2024-11-23T08:43:58.583Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674195ecbf12f48acb247045"
+  },
+  "temperature": 27.9,
+  "humidity": 74.2,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T08:44:28.524Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674195f8bf12f48acb247046"
+  },
+  "temperature": 27.9,
+  "humidity": 74.4,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T08:44:40.352Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419603bf12f48acb247047"
+  },
+  "temperature": 27.9,
+  "humidity": 74.7,
+  "gas_level": 598,
+  "timestamp": {
+    "$date": "2024-11-23T08:44:51.686Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419610bf12f48acb247048"
+  },
+  "temperature": 28,
+  "humidity": 74.8,
+  "gas_level": 598,
+  "timestamp": {
+    "$date": "2024-11-23T08:45:04.354Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674196c471b9da5992f313fa"
+  },
+  "temperature": 28.2,
+  "humidity": 73.9,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T08:48:04.929Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674196d071b9da5992f313fb"
+  },
+  "temperature": 28.2,
+  "humidity": 74.1,
+  "gas_level": 600,
+  "timestamp": {
+    "$date": "2024-11-23T08:48:16.677Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674196dd71b9da5992f313fc"
+  },
+  "temperature": 28.3,
+  "humidity": 74,
+  "gas_level": 600,
+  "timestamp": {
+    "$date": "2024-11-23T08:48:29.588Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674196e971b9da5992f313fd"
+  },
+  "temperature": 28.3,
+  "humidity": 74,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:48:41.393Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674196f571b9da5992f313fe"
+  },
+  "temperature": 28.3,
+  "humidity": 74,
+  "gas_level": 600,
+  "timestamp": {
+    "$date": "2024-11-23T08:48:53.356Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741970071b9da5992f313ff"
+  },
+  "temperature": 28.3,
+  "humidity": 73.9,
+  "gas_level": 595,
+  "timestamp": {
+    "$date": "2024-11-23T08:49:04.745Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741970c71b9da5992f31400"
+  },
+  "temperature": 28.3,
+  "humidity": 73.9,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:49:16.479Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741971771b9da5992f31401"
+  },
+  "temperature": 28.3,
+  "humidity": 73.9,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:49:27.949Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741972371b9da5992f31402"
+  },
+  "temperature": 28.3,
+  "humidity": 73.9,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:49:39.560Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741973f71b9da5992f31403"
+  },
+  "temperature": 28.3,
+  "humidity": 73.7,
+  "gas_level": 596,
+  "timestamp": {
+    "$date": "2024-11-23T08:50:07.264Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741974f71b9da5992f31404"
+  },
+  "temperature": 28.3,
+  "humidity": 73.7,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:50:23.238Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741975b71b9da5992f31405"
+  },
+  "temperature": 28.3,
+  "humidity": 73.6,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:50:35.594Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741976771b9da5992f31406"
+  },
+  "temperature": 28.3,
+  "humidity": 73.4,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:50:47.206Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741977271b9da5992f31407"
+  },
+  "temperature": 28.3,
+  "humidity": 73.3,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:50:58.678Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741977e71b9da5992f31408"
+  },
+  "temperature": 28.3,
+  "humidity": 73.1,
+  "gas_level": 596,
+  "timestamp": {
+    "$date": "2024-11-23T08:51:10.289Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741978c71b9da5992f31409"
+  },
+  "temperature": 28.3,
+  "humidity": 73.1,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:51:24.947Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674197b071b9da5992f3140a"
+  },
+  "temperature": 28.4,
+  "humidity": 72.8,
+  "gas_level": 596,
+  "timestamp": {
+    "$date": "2024-11-23T08:52:00.553Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674197bc71b9da5992f3140b"
+  },
+  "temperature": 28.4,
+  "humidity": 72.7,
+  "gas_level": 596,
+  "timestamp": {
+    "$date": "2024-11-23T08:52:12.121Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674197c871b9da5992f3140c"
+  },
+  "temperature": 28.3,
+  "humidity": 72.5,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:52:24.191Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674197d471b9da5992f3140d"
+  },
+  "temperature": 28.2,
+  "humidity": 72.6,
+  "gas_level": 596,
+  "timestamp": {
+    "$date": "2024-11-23T08:52:36.524Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674197e371b9da5992f3140e"
+  },
+  "temperature": 28.2,
+  "humidity": 72.6,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:52:51.533Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674197f671b9da5992f3140f"
+  },
+  "temperature": 28.2,
+  "humidity": 72.8,
+  "gas_level": 596,
+  "timestamp": {
+    "$date": "2024-11-23T08:53:10.561Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741982471b9da5992f31410"
+  },
+  "temperature": 28.2,
+  "humidity": 73.2,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:53:56.115Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741983171b9da5992f31411"
+  },
+  "temperature": 28.2,
+  "humidity": 73.4,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:54:09.005Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741984071b9da5992f31412"
+  },
+  "temperature": 28.2,
+  "humidity": 73.7,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:54:24.225Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741984c71b9da5992f31413"
+  },
+  "temperature": 28.2,
+  "humidity": 73.8,
+  "gas_level": 596,
+  "timestamp": {
+    "$date": "2024-11-23T08:54:36.243Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741985871b9da5992f31414"
+  },
+  "temperature": 28.2,
+  "humidity": 74.1,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:54:48.668Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741986971b9da5992f31415"
+  },
+  "temperature": 28.2,
+  "humidity": 74.3,
+  "gas_level": 602,
+  "timestamp": {
+    "$date": "2024-11-23T08:55:05.455Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741988071b9da5992f31416"
+  },
+  "temperature": 28.3,
+  "humidity": 74.2,
+  "gas_level": 601,
+  "timestamp": {
+    "$date": "2024-11-23T08:55:28.194Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674198fd71b9da5992f31417"
+  },
+  "temperature": 28.6,
+  "humidity": 73.9,
+  "gas_level": 595,
+  "timestamp": {
+    "$date": "2024-11-23T08:57:33.469Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741990e71b9da5992f31418"
+  },
+  "temperature": 28.7,
+  "humidity": 73.7,
+  "gas_level": 595,
+  "timestamp": {
+    "$date": "2024-11-23T08:57:50.057Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741991b71b9da5992f31419"
+  },
+  "temperature": 28.7,
+  "humidity": 73.7,
+  "gas_level": 600,
+  "timestamp": {
+    "$date": "2024-11-23T08:58:03.472Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741992671b9da5992f3141a"
+  },
+  "temperature": 28.8,
+  "humidity": 73.7,
+  "gas_level": 600,
+  "timestamp": {
+    "$date": "2024-11-23T08:58:14.943Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674199329925834b2eb4d235"
+  },
+  "temperature": 28.9,
+  "humidity": 73.8,
+  "gas_level": 595,
+  "timestamp": {
+    "$date": "2024-11-23T08:58:26.963Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674199419925834b2eb4d236"
+  },
+  "temperature": 28.9,
+  "humidity": 73.8,
+  "gas_level": 595,
+  "timestamp": {
+    "$date": "2024-11-23T08:58:41.292Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741994e9925834b2eb4d237"
+  },
+  "temperature": 28.9,
+  "humidity": 73.8,
+  "gas_level": 600,
+  "timestamp": {
+    "$date": "2024-11-23T08:58:54.126Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674199789925834b2eb4d238"
+  },
+  "temperature": 29,
+  "humidity": 73.5,
+  "gas_level": 590,
+  "timestamp": {
+    "$date": "2024-11-23T08:59:36.452Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674199849925834b2eb4d239"
+  },
+  "temperature": 28.9,
+  "humidity": 73.5,
+  "gas_level": 586,
+  "timestamp": {
+    "$date": "2024-11-23T08:59:48.024Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741998f9925834b2eb4d23a"
+  },
+  "temperature": 28.9,
+  "humidity": 73.6,
+  "gas_level": 586,
+  "timestamp": {
+    "$date": "2024-11-23T08:59:59.797Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6741999b9925834b2eb4d23b"
+  },
+  "temperature": 28.9,
+  "humidity": 73.7,
+  "gas_level": 592,
+  "timestamp": {
+    "$date": "2024-11-23T09:00:11.142Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674199a69925834b2eb4d23c"
+  },
+  "temperature": 28.9,
+  "humidity": 73.9,
+  "gas_level": 588,
+  "timestamp": {
+    "$date": "2024-11-23T09:00:22.534Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674199b19925834b2eb4d23d"
+  },
+  "temperature": 28.8,
+  "humidity": 73.9,
+  "gas_level": 588,
+  "timestamp": {
+    "$date": "2024-11-23T09:00:33.902Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674199bd9925834b2eb4d23e"
+  },
+  "temperature": 28.8,
+  "humidity": 74,
+  "gas_level": 593,
+  "timestamp": {
+    "$date": "2024-11-23T09:00:45.544Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674199c99925834b2eb4d23f"
+  },
+  "temperature": 28.7,
+  "humidity": 74.3,
+  "gas_level": 588,
+  "timestamp": {
+    "$date": "2024-11-23T09:00:57.127Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674199d59925834b2eb4d240"
+  },
+  "temperature": 28.7,
+  "humidity": 74.5,
+  "gas_level": 593,
+  "timestamp": {
+    "$date": "2024-11-23T09:01:09.126Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674199e29925834b2eb4d241"
+  },
+  "temperature": 28.7,
+  "humidity": 74.5,
+  "gas_level": 588,
+  "timestamp": {
+    "$date": "2024-11-23T09:01:22.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674199ee9925834b2eb4d242"
+  },
+  "temperature": 28.7,
+  "humidity": 74.5,
+  "gas_level": 589,
+  "timestamp": {
+    "$date": "2024-11-23T09:01:34.419Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674199fa9925834b2eb4d243"
+  },
+  "temperature": 28.6,
+  "humidity": 74.7,
+  "gas_level": 589,
+  "timestamp": {
+    "$date": "2024-11-23T09:01:46.298Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419a069925834b2eb4d244"
+  },
+  "temperature": 28.6,
+  "humidity": 74.8,
+  "gas_level": 589,
+  "timestamp": {
+    "$date": "2024-11-23T09:01:58.895Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419a129925834b2eb4d245"
+  },
+  "temperature": 28.6,
+  "humidity": 74.9,
+  "gas_level": 589,
+  "timestamp": {
+    "$date": "2024-11-23T09:02:10.361Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419a1d9925834b2eb4d246"
+  },
+  "temperature": 28.5,
+  "humidity": 74.9,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:02:21.936Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419a299925834b2eb4d247"
+  },
+  "temperature": 28.5,
+  "humidity": 75,
+  "gas_level": 593,
+  "timestamp": {
+    "$date": "2024-11-23T09:02:33.916Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419a359925834b2eb4d248"
+  },
+  "temperature": 28.5,
+  "humidity": 75.1,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:02:45.280Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419a409925834b2eb4d249"
+  },
+  "temperature": 28.5,
+  "humidity": 75.2,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:02:56.577Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419a4c9925834b2eb4d24a"
+  },
+  "temperature": 28.5,
+  "humidity": 75.4,
+  "gas_level": 588,
+  "timestamp": {
+    "$date": "2024-11-23T09:03:08.116Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419a589925834b2eb4d24b"
+  },
+  "temperature": 28.5,
+  "humidity": 75.5,
+  "gas_level": 593,
+  "timestamp": {
+    "$date": "2024-11-23T09:03:20.199Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419a639925834b2eb4d24c"
+  },
+  "temperature": 28.5,
+  "humidity": 75.7,
+  "gas_level": 588,
+  "timestamp": {
+    "$date": "2024-11-23T09:03:31.875Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419a719925834b2eb4d24d"
+  },
+  "temperature": 28.5,
+  "humidity": 75.7,
+  "gas_level": 592,
+  "timestamp": {
+    "$date": "2024-11-23T09:03:45.083Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419a7c9925834b2eb4d24e"
+  },
+  "temperature": 28.6,
+  "humidity": 75.8,
+  "gas_level": 592,
+  "timestamp": {
+    "$date": "2024-11-23T09:03:56.566Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419a889925834b2eb4d24f"
+  },
+  "temperature": 28.6,
+  "humidity": 75.9,
+  "gas_level": 588,
+  "timestamp": {
+    "$date": "2024-11-23T09:04:08.637Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419a949925834b2eb4d250"
+  },
+  "temperature": 28.6,
+  "humidity": 75.7,
+  "gas_level": 592,
+  "timestamp": {
+    "$date": "2024-11-23T09:04:20.127Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419a9f9925834b2eb4d251"
+  },
+  "temperature": 28.6,
+  "humidity": 75.7,
+  "gas_level": 592,
+  "timestamp": {
+    "$date": "2024-11-23T09:04:31.526Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419aaa9925834b2eb4d252"
+  },
+  "temperature": 28.6,
+  "humidity": 75.7,
+  "gas_level": 592,
+  "timestamp": {
+    "$date": "2024-11-23T09:04:42.763Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419ab69925834b2eb4d253"
+  },
+  "temperature": 28.6,
+  "humidity": 75.7,
+  "gas_level": 592,
+  "timestamp": {
+    "$date": "2024-11-23T09:04:54.204Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419ac39925834b2eb4d254"
+  },
+  "temperature": 28.6,
+  "humidity": 75.7,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:05:07.621Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419ad29925834b2eb4d255"
+  },
+  "temperature": 28.5,
+  "humidity": 75.6,
+  "gas_level": 589,
+  "timestamp": {
+    "$date": "2024-11-23T09:05:22.160Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419adf9925834b2eb4d256"
+  },
+  "temperature": 28.5,
+  "humidity": 75.7,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:05:35.780Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419aeb9925834b2eb4d257"
+  },
+  "temperature": 28.5,
+  "humidity": 76,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:05:47.553Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419af69925834b2eb4d258"
+  },
+  "temperature": 28.6,
+  "humidity": 76.3,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:05:58.923Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419b039925834b2eb4d259"
+  },
+  "temperature": 28.6,
+  "humidity": 76.4,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:06:11.388Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419b0e9925834b2eb4d25a"
+  },
+  "temperature": 28.6,
+  "humidity": 76.4,
+  "gas_level": 589,
+  "timestamp": {
+    "$date": "2024-11-23T09:06:22.881Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419b1a9925834b2eb4d25b"
+  },
+  "temperature": 28.6,
+  "humidity": 76.3,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:06:34.273Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419b259925834b2eb4d25c"
+  },
+  "temperature": 28.6,
+  "humidity": 76.3,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:06:45.545Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419b309925834b2eb4d25d"
+  },
+  "temperature": 28.6,
+  "humidity": 76.3,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:06:56.850Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419b3c9925834b2eb4d25e"
+  },
+  "temperature": 28.6,
+  "humidity": 76.3,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:07:08.448Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419b479925834b2eb4d25f"
+  },
+  "temperature": 28.7,
+  "humidity": 76.2,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:07:19.923Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419b539925834b2eb4d260"
+  },
+  "temperature": 28.6,
+  "humidity": 75.9,
+  "gas_level": 589,
+  "timestamp": {
+    "$date": "2024-11-23T09:07:31.390Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419b5e9925834b2eb4d261"
+  },
+  "temperature": 28.6,
+  "humidity": 75.9,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:07:42.669Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419b6a9925834b2eb4d262"
+  },
+  "temperature": 28.6,
+  "humidity": 75.9,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:07:54.025Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419b759925834b2eb4d263"
+  },
+  "temperature": 28.6,
+  "humidity": 75.8,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:08:05.490Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419b809925834b2eb4d264"
+  },
+  "temperature": 28.6,
+  "humidity": 75.7,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:08:16.960Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419b8c9925834b2eb4d265"
+  },
+  "temperature": 28.6,
+  "humidity": 75.7,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:08:28.428Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419b989925834b2eb4d266"
+  },
+  "temperature": 28.7,
+  "humidity": 75.8,
+  "gas_level": 589,
+  "timestamp": {
+    "$date": "2024-11-23T09:08:40.615Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419ba59925834b2eb4d267"
+  },
+  "temperature": 28.7,
+  "humidity": 75.8,
+  "gas_level": 593,
+  "timestamp": {
+    "$date": "2024-11-23T09:08:53.005Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419bb29925834b2eb4d268"
+  },
+  "temperature": 28.7,
+  "humidity": 75.9,
+  "gas_level": 593,
+  "timestamp": {
+    "$date": "2024-11-23T09:09:06.928Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419bc09925834b2eb4d269"
+  },
+  "temperature": 28.7,
+  "humidity": 75.9,
+  "gas_level": 593,
+  "timestamp": {
+    "$date": "2024-11-23T09:09:20.655Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419bcc9925834b2eb4d26a"
+  },
+  "temperature": 28.7,
+  "humidity": 76,
+  "gas_level": 593,
+  "timestamp": {
+    "$date": "2024-11-23T09:09:32.326Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419bd89925834b2eb4d26b"
+  },
+  "temperature": 28.7,
+  "humidity": 76.1,
+  "gas_level": 589,
+  "timestamp": {
+    "$date": "2024-11-23T09:09:44.405Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419be49925834b2eb4d26c"
+  },
+  "temperature": 28.8,
+  "humidity": 76,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:09:56.166Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419bf39925834b2eb4d26d"
+  },
+  "temperature": 28.8,
+  "humidity": 76,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:10:11.142Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419bff9925834b2eb4d26e"
+  },
+  "temperature": 28.9,
+  "humidity": 76.1,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:10:23.836Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419c0c9925834b2eb4d26f"
+  },
+  "temperature": 28.9,
+  "humidity": 76,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:10:36.225Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419c179925834b2eb4d270"
+  },
+  "temperature": 28.9,
+  "humidity": 76,
+  "gas_level": 589,
+  "timestamp": {
+    "$date": "2024-11-23T09:10:47.798Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419c239925834b2eb4d271"
+  },
+  "temperature": 28.9,
+  "humidity": 75.9,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:10:59.882Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419c2f9925834b2eb4d272"
+  },
+  "temperature": 28.9,
+  "humidity": 75.8,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:11:11.540Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419c3b9925834b2eb4d273"
+  },
+  "temperature": 28.9,
+  "humidity": 75.8,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:11:23.022Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419c469925834b2eb4d274"
+  },
+  "temperature": 28.9,
+  "humidity": 75.8,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:11:34.590Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419c529925834b2eb4d275"
+  },
+  "temperature": 28.9,
+  "humidity": 75.8,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:11:46.167Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419c5d9925834b2eb4d276"
+  },
+  "temperature": 28.9,
+  "humidity": 75.8,
+  "gas_level": 589,
+  "timestamp": {
+    "$date": "2024-11-23T09:11:57.737Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419c699925834b2eb4d277"
+  },
+  "temperature": 28.9,
+  "humidity": 75.7,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:12:09.308Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419c749925834b2eb4d278"
+  },
+  "temperature": 28.9,
+  "humidity": 75.8,
+  "gas_level": 595,
+  "timestamp": {
+    "$date": "2024-11-23T09:12:20.881Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419c809925834b2eb4d279"
+  },
+  "temperature": 28.9,
+  "humidity": 75.8,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:12:32.450Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419c8d9925834b2eb4d27a"
+  },
+  "temperature": 29,
+  "humidity": 75.7,
+  "gas_level": 595,
+  "timestamp": {
+    "$date": "2024-11-23T09:12:45.046Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419c999925834b2eb4d27b"
+  },
+  "temperature": 29,
+  "humidity": 75.7,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:12:57.246Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419ca59925834b2eb4d27c"
+  },
+  "temperature": 29,
+  "humidity": 75.6,
+  "gas_level": 590,
+  "timestamp": {
+    "$date": "2024-11-23T09:13:09.315Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419cb09925834b2eb4d27d"
+  },
+  "temperature": 29,
+  "humidity": 75.5,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:13:20.990Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419cbc9925834b2eb4d27e"
+  },
+  "temperature": 29.1,
+  "humidity": 75.5,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:13:32.562Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419cc89925834b2eb4d27f"
+  },
+  "temperature": 29.1,
+  "humidity": 75.5,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:13:44.131Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419cd39925834b2eb4d280"
+  },
+  "temperature": 29.1,
+  "humidity": 75.5,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:13:55.601Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419cdf9925834b2eb4d281"
+  },
+  "temperature": 29.1,
+  "humidity": 75.5,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:14:07.274Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419ceb9925834b2eb4d282"
+  },
+  "temperature": 29.1,
+  "humidity": 75.5,
+  "gas_level": 589,
+  "timestamp": {
+    "$date": "2024-11-23T09:14:19.497Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419cf69925834b2eb4d283"
+  },
+  "temperature": 29.1,
+  "humidity": 75.5,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:14:30.926Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419d029925834b2eb4d284"
+  },
+  "temperature": 29.1,
+  "humidity": 75.5,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:14:42.700Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419d0e9925834b2eb4d285"
+  },
+  "temperature": 29.1,
+  "humidity": 75.4,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:14:54.174Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419d199925834b2eb4d286"
+  },
+  "temperature": 29.1,
+  "humidity": 75.5,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:15:05.747Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419d269925834b2eb4d287"
+  },
+  "temperature": 29.1,
+  "humidity": 75.5,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:15:18.033Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419d319925834b2eb4d288"
+  },
+  "temperature": 29.1,
+  "humidity": 75.6,
+  "gas_level": 589,
+  "timestamp": {
+    "$date": "2024-11-23T09:15:29.708Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419d3d9925834b2eb4d289"
+  },
+  "temperature": 29.1,
+  "humidity": 75.6,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:15:41.288Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419d489925834b2eb4d28a"
+  },
+  "temperature": 29.1,
+  "humidity": 75.6,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:15:52.953Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419d549925834b2eb4d28b"
+  },
+  "temperature": 29.1,
+  "humidity": 75.6,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:16:04.421Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419d609925834b2eb4d28c"
+  },
+  "temperature": 29.1,
+  "humidity": 75.6,
+  "gas_level": 595,
+  "timestamp": {
+    "$date": "2024-11-23T09:16:16.198Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419d6c9925834b2eb4d28d"
+  },
+  "temperature": 29.1,
+  "humidity": 75.7,
+  "gas_level": 595,
+  "timestamp": {
+    "$date": "2024-11-23T09:16:28.076Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419d789925834b2eb4d28e"
+  },
+  "temperature": 29.1,
+  "humidity": 75.7,
+  "gas_level": 590,
+  "timestamp": {
+    "$date": "2024-11-23T09:16:40.467Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419d839925834b2eb4d28f"
+  },
+  "temperature": 29,
+  "humidity": 75.6,
+  "gas_level": 595,
+  "timestamp": {
+    "$date": "2024-11-23T09:16:51.934Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419d8f9925834b2eb4d290"
+  },
+  "temperature": 29,
+  "humidity": 75.7,
+  "gas_level": 595,
+  "timestamp": {
+    "$date": "2024-11-23T09:17:03.302Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419d9b9925834b2eb4d291"
+  },
+  "temperature": 29,
+  "humidity": 75.8,
+  "gas_level": 595,
+  "timestamp": {
+    "$date": "2024-11-23T09:17:15.386Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419da69925834b2eb4d292"
+  },
+  "temperature": 29.1,
+  "humidity": 75.8,
+  "gas_level": 595,
+  "timestamp": {
+    "$date": "2024-11-23T09:17:26.860Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419db39925834b2eb4d293"
+  },
+  "temperature": 29,
+  "humidity": 75.7,
+  "gas_level": 595,
+  "timestamp": {
+    "$date": "2024-11-23T09:17:39.142Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419dc39925834b2eb4d294"
+  },
+  "temperature": 29,
+  "humidity": 75.6,
+  "gas_level": 590,
+  "timestamp": {
+    "$date": "2024-11-23T09:17:55.859Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419dd09925834b2eb4d295"
+  },
+  "temperature": 29,
+  "humidity": 75.7,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:18:08.635Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419ddc9925834b2eb4d296"
+  },
+  "temperature": 29,
+  "humidity": 75.9,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:18:20.206Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67419de79925834b2eb4d297"
+  },
+  "temperature": 29,
+  "humidity": 75.9,
+  "gas_level": 594,
+  "timestamp": {
+    "$date": "2024-11-23T09:18:31.573Z"
+  }
+}]
