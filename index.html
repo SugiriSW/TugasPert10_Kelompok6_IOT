@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Sensor Data</title>
+    <style>
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #4CAF50;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#status {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    transition: color 0.3s;
+}
+
+#data-table {
+    margin-top: 40px;
+    width: 80%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#data-table th, #data-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#data-table th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+#data-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#data-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+#chart-button {
+    margin-top: 30px;
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#chart-button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+}
+
+#chart-button:active {
+    background-color: #3e8e41;
+    transform: translateY(0);
+}
+
+#chart-container {
+    margin-top: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+canvas {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+    </style>
+</head>
+<body>
+    <h1>Real-Time Sensor Data</h1>
+    <p id="status" style="color: green;">Connecting to server...</p>
+    
+    <table id="data-table">
+        <thead>
+            <tr>
+                <th>Temperature (°C)</th>
+                <th>Humidity (%)</th>
+                <th>Gas Level</th>
+                <th>Timestamp</th>
+            </tr>
+        </thead>
+        <tbody id="data-body">
+            <!-- Data will be inserted here dynamically -->
+        </tbody>
+    </table>
+
+
+    <!-- Container for the chart -->
+    <div id="chart-container">
+        <canvas id="sensorChart"></canvas>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // Connect to the server's Socket.IO
+        const socket = io('https://d6464rhl-42352.asse.devtunnels.ms/'); 
+
+        // Status element
+        const statusElement = document.getElementById('status');
+        
+        // Table body to display the data
+        const dataBody = document.getElementById('data-body');
+        
+        // Chart setup
+        const ctx = document.getElementById('sensorChart').getContext('2d');
+        let chart;
+
+        // Initialize empty datasets for chart
+        const chartData = {
+            labels: [],
+            datasets: [
+                {
+                    label: 'Temperature (°C)',
+                    data: [],
+                    borderColor: 'red',
+                    backgroundColor: 'rgba(255, 0, 0, 0.2)',
+                    fill: false,
+                    tension: 0.1
+                },
+                {
+                    label: 'Humidity (%)',
+                    data: [],
+                    borderColor: 'blue',
+                    backgroundColor: 'rgba(0, 0, 255, 0.2)',
+                    fill: false,
+                    tension: 0.1
+                },
+                {
+                    label: 'Gas Level',
+                    data: [],
+                    borderColor: 'green',
+                    backgroundColor: 'rgba(0, 255, 0, 0.2)',
+                    fill: false,
+                    tension: 0.1
+                }
+            ]
+        };
+
+        // Chart options
+        const chartOptions = {
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: 'top',
+                },
+                tooltip: {
+                    callbacks: {
+                        label: function(tooltipItem) {
+                            return tooltipItem.dataset.label + ': ' + tooltipItem.raw;
+                        }
+                    }
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        };
+
+        // Initialize chart
+        function initChart() {
+            chart = new Chart(ctx, {
+                type: 'line',
+                data: chartData,
+                options: chartOptions
+            });
+        }
+
+        // Handle connection
+        socket.on('connect', () => {
+            statusElement.textContent = "Connected to server.";
+            statusElement.style.color = "green";
+            initChart();  // Initialize chart when connected
+        });
+
+        // Handle disconnection
+        socket.on('disconnect', () => {
+            statusElement.textContent = "Disconnected from server.";
+            statusElement.style.color = "red";
+        });
+
+        // Listen for real-time data updates
+        socket.on('latest_three_data', (data) => {
+            console.log("Received latest data:", data);
+            updateTable(data);
+            updateChart(data);
+        });
+
+        // Function to update the table with new data
+        function updateTable(data) {
+            dataBody.innerHTML = ""; // Clear existing table rows
+            data.forEach(sensor => {
+                const row = document.createElement('tr');
+                row.innerHTML = ` 
+                    <td>${sensor.temperature}</td>
+                    <td>${sensor.humidity}</td>
+                    <td>${sensor.gas_level}</td>
+                    <td>${new Date(sensor.timestamp).toLocaleString()}</td>
+                `;
+                dataBody.appendChild(row);
+            });
+        }
+
+        // Function to update the chart with new data
+        function updateChart(data) {
+            data.forEach(sensor => {
+                chartData.labels.push(new Date(sensor.timestamp).toLocaleTimeString());
+                chartData.datasets[0].data.push(sensor.temperature);
+                chartData.datasets[1].data.push(sensor.humidity);
+                chartData.datasets[2].data.push(sensor.gas_level);
+            });
+            chart.update();
+        }
+
+
+        // Function to show the chart page
+        function showChart() {
+            window.location.href = "chart.html";  // Navigate to chart.html page
+        }
+    </script>
+        <button id="chart-button" onclick="showChart()">Show Chart</button>
+</body>
+</html>
